@@ -2,7 +2,7 @@ const DATA = {
   title: "Divine Avenger Sacrifice",
   title_icon: "icon_7_5",
   title_class: "da",
-  video: "",
+  video: "https://www.youtube.com/@Orissamr",
   tagline:
     "This Sacrifice build uses dagger-type weapons and Katana back headware to proc Double Attack.",
   categories: [
