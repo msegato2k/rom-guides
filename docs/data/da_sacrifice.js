@@ -4,7 +4,7 @@ const DATA = {
   title_class: "am",
   video: "https://www.youtube.com/watch?v=5DkhbTR3KXw",
   tagline:
-    "This Sacrifice build uses dagger-type weapons and Katana back hearware to double up AA DMG.",
+    "This Sacrifice build uses dagger-type weapons and Katana back headware to proc Double Attack.",
   categories: [
     {
       category: "Weapon",
