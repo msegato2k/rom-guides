@@ -1,8 +1,8 @@
 const DATA = {
   title: "Divine Avenger Sacrifice",
-  title_icon: "icon_2_5",
-  title_class: "am",
-  video: "https://www.youtube.com/watch?v=5DkhbTR3KXw",
+  title_icon: "icon_7_5",
+  title_class: "da",
+  video: "",
   tagline:
     "This Sacrifice build uses dagger-type weapons and Katana back headware to proc Double Attack.",
   categories: [
@@ -24,16 +24,14 @@ const DATA = {
           row: 2,
           entries: [
             {
-              name: "Bloody Knight ★ Card",
-              light: true,
-              icon_card: "24630",
-              stat: '+5% AA Dmg, +5% "Meteor Storm" chance on AA +3% with Pale Lord Card',
+              name: "Shell Chepet ★ Card",
+              icon_card: "24113",
+              stat: "17.5% Spell Crit, 5 Int/Luk",
             },
             {
-              name: "Pale Lord Card",
-              light: true,
-              icon_card: "24055",
-              stat: "+10% AA Dmg, +5% with Bloody Knight ★ Card",
+              name: "Incantation Samurai Card",
+              icon_card: "23055",
+              stat: "15% MPen",
             },
             { br: true },
             {
@@ -42,8 +40,81 @@ const DATA = {
               stat: "10% Skill Dmg (+1% w/ depo)",
             },
           ],
+          subsections: [
+            {
+              align: "column",
+              sections: [
+                {
+                  section: "PVP",
+                  entries: [
+                    {
+                      name: "Hydra ★ Card",
+                      bold: true,
+                      icon_card: "24110",
+                      stat: "15% Dmg to Demihuman Race, 5% Dmg to Players (+1% w/ depo)",
+                    },
+                    {
+                      name: "Stormy Knight ★ Card",
+                      icon_card: "24637",
+                      stat: '5% All Race Dmg, 20% Freeze Chance, 5% "Storm Gust" proc on AA',
+                      note: "recommended for GVG",
+                    },
+                    {
+                      name: "Dead Stormy Knight Card",
+                      icon_card: "24519",
+                      stat: "5% All Race Dmg, No Freeze Break, 10% Dmg to Frozen targets w/ Stormy Knight ★ Card",
+                      note: "recommended for GVG",
+                    },
+                    { br: true },
+                    {
+                      name: "Bloody Knight ★ Card",
+                      light: true,
+                      icon_card: "24630",
+                      stat: '5% AA Dmg, 5% "Meteor Storm" proc on AA +3% w/ Pale Lord Card',
+                      note: "NOT recommended",
+                    },
+                    {
+                      name: "Pale Lord Card",
+                      light: true,
+                      icon_card: "24055",
+                      stat: "10% AA Dmg +5% w/ Bloody Knight ★ Card",
+                      note: "NOT recommended",
+                    },
+                  ],
+                },
+                {
+                  section: "PVE",
+                  entries: [
+                    {
+                      name: "Fire Bird Chiri ★ Card",
+                      icon_card: "24668",
+                      stat: "45% Ignore MDef vs. MVP (+5% w/ depo)",
+                    },
+                    {
+                      name: "Abysmal Knight ★ Card",
+                      icon_card: "24117",
+                      stat: "15% Dmg to MVP (+5% w/ depo)",
+                    },
+                    { br: true },
+                    {
+                      name: "Channeller Card",
+                      icon_card: "23265",
+                      stat: "15% Final Dmg to Large, 5% Dmg to MVP",
+                      note: "BCC Box",
+                    },
+                    {
+                      name: "Seed of Yggdrasil Card",
+                      icon_card: "23056",
+                      stat: "5% Magic Lifesteal",
+                      note: "for survivability in most content",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
         },
-      },
+      ],
     },
     {
       category: "Off-Hand",
