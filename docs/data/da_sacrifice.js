@@ -42,6 +42,8 @@ const DATA = {
               stat: "10% Skill Dmg (+1% w/ depo)",
             },
           ],
+        },
+    },
     {
       category: "Off-Hand",
       sections: [
