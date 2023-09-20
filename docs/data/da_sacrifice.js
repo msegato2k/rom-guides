@@ -43,6 +43,7 @@ const DATA = {
             },
           ],
         },
+      },
     },
     {
       category: "Off-Hand",
