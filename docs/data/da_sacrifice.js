@@ -15,7 +15,7 @@ const DATA = {
           entries: [
             {
               name: "Stalker's Knife",
-              icon: "40506",
+              icon: "40767",
             },
           ],
         },
