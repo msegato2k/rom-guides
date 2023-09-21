@@ -72,7 +72,7 @@ const DATA = {
           ],
         },
         {
-          section: "Shadow",
+          section: "Phantom",
           row: 1,
           entries: [
             {
