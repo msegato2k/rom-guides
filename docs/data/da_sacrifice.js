@@ -59,27 +59,15 @@ const DATA = {
           row: 1,
           entries: [
             {
-              name: "Othershore Web",
+              name: "Doomsday Omen",
               bold: true,
-              icon: "42640",
-              ae_attr: "18% MPen",
+              icon: "42665",
+              ae_attr: "18% HP",
             },
             {
-              name: "Wisdom Totem",
-              icon: "42609",
-              ae_attr: "18% MDmg",
-            },
-            {
-              name: "Devil Skull",
-              icon: "42634",
-              ae_attr: "30% Ignore MDef",
-            },
-            {
-              name: "+15 Pardon Money",
-              light: true,
-              icon: "42637",
-              ae_attr: "-18% Cast Delay",
-              note: 'for permanent "White Barrier"',
+              name: "Marinesoul Bulwark",
+              icon: "42662",
+              ae_attr: "24% Elemental DMG reduc",
             },
           ],
         },
@@ -88,20 +76,20 @@ const DATA = {
           row: 1,
           entries: [
             {
-              name: "Creeper Agreement",
-              icon: "42586",
-              note: "for Ignore MDef%",
+              name: "Meteorite Buckler",
+              icon: "42580",
+              note: "for HP%",
             },
             {
-              name: "Peak Platter",
-              icon: "42585",
-              note: "for MPen%/MAtk%",
+              name: "Giant Wing Shield",
+              icon: "42579",
+              note: "for Heal Bonus",
             },
             {
-              name: "+15 Arcane Codex",
+              name: "Giant Armor Shield",
               light: true,
-              icon: "42587",
-              note: 'for permanent "White Barrier"',
+              icon: "42584",
+              note: 'for Elemental DMG reduc',
             },
           ],
         },
@@ -110,74 +98,16 @@ const DATA = {
           row: 2,
           entries: [
             {
-              name: "Wicked Sunflower ★ Card",
+              name: "Snake Demon Gorgons Card",
               bold: true,
-              icon_card: "24102",
-              stat: "Magic AoE Dmg +1% per Off-Hand refine",
-              note: 'does NOT affect "Tetra Vortex" or "Chain Lightning"',
+              icon_card: "30058",
+              stat: "Max HP +15%, Skill DMG Reduct. +5%",
             },
             {
-              name: "Gemini's Love",
+              name: "Cenia ★ Card",
               light: true,
-              icon_card: "23133",
-              stat: "3% Ignore MDef",
-            },
-            { br: true },
-            {
-              name: "Anubis ★ Card",
-              light: true,
-              icon_card: "24626",
-              stat: "5% All Race Dmg",
-            },
-          ],
-          subsections: [
-            {
-              align: "row",
-              sections: [
-                {
-                  section: "PVP",
-                  entries: [
-                    {
-                      name: "Thara Frog ★ Card",
-                      icon_card: "24048",
-                      stat: "3% Dmg to Demihuman, 3% Demihuman Reduc",
-                    },
-                    {
-                      name: "Ore Spirit Card",
-                      icon_card: "22044",
-                      stat: "Final Dmg +5% per abnormal status",
-                      note: "does NOT count Electrify/Alight",
-                    },
-                    {
-                      name: "Maya ★ Card",
-                      icon_card: "24606",
-                      stat: "20% Magic Reflect",
-                    },
-                    {
-                      name: "Dead Time Holder Card",
-                      light: true,
-                      icon_card: "24516",
-                      stat: "15% Dmg to Demihuman, 15% Demihuman Reduc",
-                      note: "in your dreams",
-                    },
-                  ],
-                },
-                {
-                  section: "PVE",
-                  entries: [
-                    {
-                      name: "Alice ★ Card",
-                      icon_card: "24634",
-                      stat: "15% Dmg to MVP",
-                    },
-                    {
-                      name: "Meryl Rowlands Card",
-                      icon_card: "23152",
-                      stat: "5% Dmg to MVP",
-                    },
-                  ],
-                },
-              ],
+              icon_card: "24645",
+              stat: "Max HP +5%, DMG reduc +5%, DEF +10%, When there is a Swordsman unit in the party, the party members in the same map (excluding the hero) have their DMG reduc +5%, DEF +10%",
             },
           ],
         },
